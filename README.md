@@ -1,8 +1,8 @@
-# TextImageCoding
-A temporal repository for the paper "LMM-driven Text-Image Coding for Ultra Low-bitrate Image Compression"
+# ImageTextCoding
+A temporal repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression"
 
 # Description 
-This is the repository fot the under-review paper "LMM-driven Text-Image Coding for Ultra Low-bitrate Image Compression".
+This is the repository fot the under-review paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression".
 This repository is under temporal GitHub account to maintain the anonimity. This will be moved to actual repository of the authors later.  
 
 # Requirements
