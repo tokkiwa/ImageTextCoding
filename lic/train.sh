@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python3 train_text.py -d ../datasets -e 10 -m cheng2020-attn --lambda 1 --cuda --checkpoint ../lic_weights/cheng/cheng2020_attn-mse-1-465f2b64.pth.tar 
