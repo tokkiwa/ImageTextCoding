@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 ## demo inference
-We prepare compressed text caption for kodak image datasets. Please run
+We prepare text caption for kodak image datasets. Please run
 ```
 bash run_misc.sh
 ```
