@@ -5,6 +5,12 @@ A temporal repository for the paper "LMM-driven Semantic Image-Text Coding for U
 This is the repository fot the under-review paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression".
 **This GitHub account is tentative to maintain the anonimity.** This repository will be moved to actual repository of the authors later.  
 
+# Demo Inference on Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/user475289/ImageTextCoding/blob/master/ImageTextCoding.ipynb)
+
+We prepare demo inference code for google colaboratory.
+You can check the inference without any environmental setting. Just click the 'Open in Colab' button above. 
+
 # Requirements
 Python 3.10 and some other packages are needed. Please refer to the `How to Use` section below.
 Our experiments and verification are conducted on Linux(Ubuntu 22.04) and Docker container with cuda=1.2.1 and torch=2.1. 
