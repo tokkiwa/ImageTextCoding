@@ -1,6 +1,7 @@
 # ImageTextCoding
 A temporal repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression"
 
+![h=20](https://github.com/user475289/ImageTextCoding/blob/main/assets/comparison15.drawio.png)
 # Description 
 This is the repository fot the under-review paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression".
 **This GitHub account is tentative to maintain the anonimity.** This repository will be moved to actual repository of the authors later.  
