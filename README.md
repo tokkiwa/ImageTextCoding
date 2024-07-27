@@ -22,7 +22,7 @@ cd TextImageCoding
 The weights for DiffBIR is available at https://github.com/XPixelGroup/DiffBIR. 
 We adopt 'v1_general' weights through our experiments. 
 
-Our pre-trained weight is avairable at [this link](https://drive.google.com/file/d/1S9Unc_di0x0DyMo0NCpPYeCtL7915RJ2/view?usp=drive_link). Please note that this is nightly release. 
+Our pre-trained weight is avairable at [this link](https://github.com/user475289/ImageTextCoding/releases/download/v0.1-alpha/10ep_cheng_3_mse0.5_vgg0.2_i2t0.2_iqa0.1.tar). Please note that this is nightly release. 
 All the weights for the experiment will be released soon. 
 
 - Install requirements (using virtual environment is recommended).
