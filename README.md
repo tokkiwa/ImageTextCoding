@@ -36,13 +36,15 @@ All the weights for the experiment will be released soon.
 ```
 pip install -r requirements.txt
 ```
+## Caption Generation and Compression
+Codes for Caption Generation and Compression can be found in `llavanextCaption_Compression.ipynb`. 
 
-## demo inference
+## Inference
 We prepare text caption for kodak image datasets. Please run
 ```
 bash run_misc.sh
 ```
-with nessessary specification. 
+with necessary specification. 
 
 For other datasets, please generate and compress the caption by running `llavanextCaption_Compression.ipynb` and place the output csv to the `df` folder, and specify the dataset in `run_misc.sh`. 
 
