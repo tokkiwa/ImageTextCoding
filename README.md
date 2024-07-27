@@ -4,7 +4,7 @@ A temporal repository for the paper "LMM-driven Semantic Image-Text Coding for U
 ![h=20](https://github.com/user475289/ImageTextCoding/blob/main/assets/comparison15.drawio.png)
 # Description 
 This is the repository fot the under-review paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression".
-**This GitHub account is tentative to maintain the anonimity.** This repository will be moved to actual repository of the authors later.  
+**This GitHub account is tentative to maintain the anonymity.** This repository will be moved to actual repository of the authors later.  
 
 # Demo Inference on Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/user475289/ImageTextCoding/blob/master/ImageTextCoding.ipynb)
