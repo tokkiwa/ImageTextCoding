@@ -1,10 +1,10 @@
 # ImageTextCoding
-A temporal repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression"
+A temporal repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression" (IEEE VCIP 2024)
 
 ![h=20](https://github.com/tokkiwa/ImageTextCoding/blob/main/assets/comparison15.drawio.png)
 # Description 
-This is the repository fot the under-review paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression".
-**This GitHub account is tentative to maintain the anonymity.** This repository will be moved to actual repository of the authors later.  
+This is the official repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression".
+Please feel free to contact Murai(octachoron(at)suou.waseda.jp), [Sun Heming ](https://sun.ynu.ac.jp/) or post an issue if you have any questions. 
 
 # Demo Inference on Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/user475289/ImageTextCoding/blob/master/ImageTextCoding.ipynb)
