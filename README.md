@@ -1,5 +1,5 @@
 # ImageTextCoding
-A temporal repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression" (IEEE VCIP 2024)
+Official repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression" (IEEE VCIP 2024)
 
 ![h=20](https://github.com/tokkiwa/ImageTextCoding/blob/main/assets/comparison15.drawio.png)
 # Description 
