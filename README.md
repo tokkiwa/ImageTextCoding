@@ -8,7 +8,8 @@ Official repository for the paper "LMM-driven Semantic Image-Text Coding for Ult
 
 ![h=20](https://github.com/tokkiwa/ImageTextCoding/blob/main/assets/comparison15.drawio.png)
 # Description 
-This is the official repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression". Full paper is available on [arXiv](https://arxiv.org/abs/2411.13033)
+This is the official repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression". Full paper is available on [arXiv](https://arxiv.org/abs/2411.13033).
+
 Please feel free to contact Murai(octachoron(at)suou.waseda.jp), [Sun Heming ](https://sun.ynu.ac.jp/) or post an issue if you have any questions. 
 
 # Demo Inference on Google Colab
