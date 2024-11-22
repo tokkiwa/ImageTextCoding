@@ -1,4 +1,5 @@
-![Static Badge](https://img.shields.io/badge/arXiv-2411.13033-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2411.13033)
+<a href="https://arxiv.org/abs/2411.13033"><img alt="Static Badge" src="https://img.shields.io/badge/arXiv-2411.13033-red"></a>
+
 
 
 
