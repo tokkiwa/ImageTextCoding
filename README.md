@@ -7,6 +7,9 @@
 Official repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression" (IEEE VCIP 2024)
 
 ![h=20](https://github.com/tokkiwa/ImageTextCoding/blob/main/assets/comparison15.drawio.png)
+
+[Check out our presentation poster!](https://github.com/tokkiwa/ImageTextCoding/blob/main/assets/VCIP_Poster_draft_1122.pdf)
+
 # Description 
 This is the official repository for the paper "LMM-driven Semantic Image-Text Coding for Ultra Low-bitrate Image Compression". Full paper is available on [arXiv](https://arxiv.org/abs/2411.13033).
 
