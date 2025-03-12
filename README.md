@@ -38,8 +38,7 @@ cd TextImageCoding
 The weights for DiffBIR is available at https://github.com/XPixelGroup/DiffBIR. 
 We adopt 'v1_general' weights through our experiments. 
 
-Our pre-trained weight is avairable at [this link](https://github.com/tokkiwa/ImageTextCoding/releases/download/v0.1-alpha/10ep_cheng_3_mse0.5_vgg0.2_i2t0.2_iqa0.1.tar). Please note that this is nightly release. 
-All the weights for the experiment will be released soon. 
+Our pre-trained weight is avairable at [this link](https://github.com/tokkiwa/ImageTextCoding/releases/tag/v1.0).  
 
 - Install requirements (using virtual environment is recommended).
 ```
@@ -49,7 +48,7 @@ pip install -r requirements.txt
 Codes for Caption Generation and Compression can be found in `llavanextCaption_Compression.ipynb`. 
 
 ## Inference
-We prepare text caption for kodak image datasets. Please run
+We prepare text caption for kodak image datasets. Please download kodak dataset and put in `ImageTextCoding/kodak` folder, and run
 ```
 bash run.sh
 ```
@@ -61,4 +60,4 @@ For other datasets, please generate and compress the caption by running `llavane
 Our training code is based on CompressAI. Please run `lic/train.sh` with specification of the models, datasets and parameters. 
 
 ## Ackownledgement
-Our codes are based on [MISC](https://github.com/lcysyzxdxc/MISC), [CompressAI](https://github.com/InterDigitalInc/CompressAI), [GPTZip](https://github.com/erika-n/GPTzip) and [DiffBIR](https://github.com/XPixelGroup/DiffBIR). We thank the authors for releasing their excellent work. 
+Our codes are based on [MISC](https://github.com/lcysyzxdxc/MISC), [CompressAI](https://githuhttpsb.com/InterDigitalInc/CompressAI), [GPTZip](https://github.com/erika-n/GPTzip) and [DiffBIR](https://github.com/XPixelGroup/DiffBIR). We thank the authors for releasing their excellent work. 

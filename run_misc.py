@@ -478,7 +478,7 @@ if __name__ == "__main__":
 
     
     if args.dataset =="kodak":
-        kodak_path = "{rootdir}/kodak/"
+        kodak_path = f"{rootdir}/kodak/"
         Image_names = os.listdir(kodak_path)
         for image_name in Image_names:
             image_path = kodak_path + image_name
@@ -486,7 +486,7 @@ if __name__ == "__main__":
             Images[image_name] = img
 
     elif args.dataset =="clic":
-        clic_path = "{rootdir}/CLIC2020/test/"
+        clic_path = f"{rootdir}/CLIC2020/test/"
         Image_names = os.listdir(clic_path)
         for image_name in Image_names:
             image_path=clic_path + image_name
@@ -495,9 +495,9 @@ if __name__ == "__main__":
 
     output = encode_multiple(Image_names, Images, df, mode = "tuned_net", using_map = args.using_map)
     print("Encoding done.")
-    with open(f'{rootdir}/MISC_outputs/{args.dataset}_encoded_{args.model_desc}.pickle', mode='wb') as fo:
+    with open(f'{rootdir}/outputs/{args.dataset}_encoded_{args.model_desc}.pickle', mode='wb') as fo:
         pickle.dump(output, fo)
-    print(f"Saved encoded images to {rootdir}/MISC_outputs/{args.dataset}_encoded_{args.model_desc}.pickle")
+    print(f"Saved encoded images to {rootdir}/outputs/{args.dataset}_encoded_{args.model_desc}.pickle")
   else:
       with open(args.from_encoded, 'rb') as f:
           output = pickle.load(f)
@@ -510,7 +510,11 @@ if __name__ == "__main__":
   deblurred_images = []
 
   start = time.time()
-
+  
+  #create save path directory if not exist
+  
+  os.makedirs(args.save_path, exist_ok=True)
+  
   decode_multiple(Image_names, df, output, using_map = False, deblurred_images = deblurred_images, save_path = args.save_path)
 
   end = time.time()
@@ -518,5 +522,5 @@ if __name__ == "__main__":
 
   output_data = {"deblurred_images": deblurred_images}
 
-  with open(f'{rootdir}/MISC_outputs/{args.dataset}_output_{args.model_desc}.pickle', mode='wb') as fo:
+  with open(f'{rootdir}/outputs/{args.dataset}_output_{args.model_desc}.pickle', mode='wb') as fo:
     pickle.dump(output_data, fo)
