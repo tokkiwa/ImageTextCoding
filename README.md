@@ -51,7 +51,7 @@ Codes for Caption Generation and Compression can be found in `llavanextCaption_C
 ## Inference
 We prepare text caption for kodak image datasets. Please run
 ```
-bash run_misc.sh
+bash run.sh
 ```
 with necessary specification. 
 
