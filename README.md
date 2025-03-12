@@ -55,7 +55,7 @@ bash run.sh
 ```
 with necessary specification. 
 
-For other datasets, please generate and compress the caption by running `llavanextCaption_Compression.ipynb` and place the output csv to the `df` folder, and specify the dataset in `run_misc.sh`. 
+For other datasets, please generate and compress the caption by running `llavanextCaption_Compression.ipynb` and place the output csv to the `df` folder, and specify the dataset in `run.sh`. 
 
 ## Training
 Our training code is based on CompressAI. Please run `lic/train.sh` with specification of the models, datasets and parameters. 
